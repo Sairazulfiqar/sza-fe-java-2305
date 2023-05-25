@@ -1,15 +1,18 @@
 /* Crea un programa que pida al usuario ingresar tres números y determine cuál es el mayor
 de ellos. */
 
-let A = 2
-let B = 7
-let C = 5
+let valorA = prompt ('introduce primer valor');
+let valorB = prompt ('introduce segundo valor');
+let valorC = prompt ('introduce tercer valor');
 
-if( A > B ) {
-    console.log ('A es mayor que B');
-} else (A < B); {
-    console.log ('B es mayor que A');a
-} if else ( A > C) {
-    console.log ('A es mayor que C')
+if( valorA > valorB && valorA > valorC ); {
+    alert ('A es mayor');
 }
 
+if( valorB > valorA && valorB > valorC ); {
+    alert ('B es mayor');
+}
+
+if( valorC > valorA && valorC > valorB ); {
+    alert ('C es mayor');
+}
